@@ -1,0 +1,6 @@
+{
+  "ambientDependencies": {
+    "crypto-js": "registry:dt/crypto-js#3.1.4+20160708041433",
+    "node": "registry:dt/node#6.0.0+20160830141956"
+  }
+}
