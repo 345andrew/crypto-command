@@ -41,7 +41,6 @@ fs.readFile(userArgs[1], (err: Error, data: Buffer): void => {
     process.exit(1);
   } else {
     fileData = data.toString();
-    console.log(fileData);
 
     if (userArgs[0] === "-e") {
       console.log(CryptoJS.AES.encrypt(fileData, userArgs[2]).toString());
