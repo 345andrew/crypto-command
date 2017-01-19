@@ -13,6 +13,9 @@ To install dependencies
 To build the software
 `npm run build`
 
+To make crypto-command available in the terminal:
+`npm link`
+
 ## Run
 - Encrypt: `crypto-command -e <path of file to encrypt> <passphrase or key>`
 - Decrypt: `crypto-command -d <path of file to decrypt> <passphrase or key>`
