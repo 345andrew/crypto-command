@@ -12,15 +12,12 @@
     "noImplicitAny": true,
     "allowUnreachableCode": false,
     "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
     "declarationFiles": true
   },
-  "filesGlob": [
-    "./src/**/*.ts",
-    "./typings/main.d.ts"
-  ],
-  "files": [
-    "./src/index.ts",
-    "./typings/main.d.ts"
+  "include": [
+    "./src/**/*.ts"
   ],
   "formatCodeOptions": {
     "indentSize": 4,
